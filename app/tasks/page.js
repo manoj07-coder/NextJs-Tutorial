@@ -1,9 +1,13 @@
+import TaskForm from '@/components/TaskForm'
+import TaskFormCustom from '@/components/TaskFormCustom.jsx'
+import TaskList from '@/components/TaskList'
 import React from 'react'
 
 const TasksPage = () => {
   return (
     <div>
-        <h1 className='text-7xl'>TasksPage</h1>
+        <TaskFormCustom />
+        <TaskList />
     </div>
   )
 }
